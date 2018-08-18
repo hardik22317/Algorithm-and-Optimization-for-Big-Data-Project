@@ -25,7 +25,6 @@ import matplotlib.pyplot as plt
 # In[ ]:
 tf.reset_default_graph()
 
-# Code by Parag Mital (github.com/pkmital/CADL)
 def montage(images):
     if isinstance(images, list):
         images = np.array(images)
